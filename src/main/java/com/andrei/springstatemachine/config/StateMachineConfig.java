@@ -1,11 +1,9 @@
 package com.andrei.springstatemachine.config;
 
-import com.andrei.springstatemachine.domain.Payment;
 import com.andrei.springstatemachine.domain.PaymentEvent;
 import com.andrei.springstatemachine.domain.PaymentState;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.context.annotation.Configuration;
-import org.springframework.statemachine.StateMachine;
 import org.springframework.statemachine.config.EnableStateMachineFactory;
 import org.springframework.statemachine.config.StateMachineConfigurerAdapter;
 import org.springframework.statemachine.config.builders.StateMachineConfigurationConfigurer;
